@@ -1,0 +1,607 @@
+<p align="center">
+  <img src="assets/figura-01.png" alt="Universidad Peruana de Ciencias Aplicadas" width="80">
+</p>
+
+<h3 align="center">Universidad Peruana de Ciencias Aplicadas</h3>
+<h4 align="center">Carrera de Ingeniería de Software</h4>
+
+<p align="center">
+  <b>1ASI0729</b><br>
+  Desarrollo de Aplicaciones Open Source<br>
+  <b>NRC</b> 7729
+</p>
+
+<h2 align="center">Informe del Trabajo Final</h2>
+
+<p align="center">
+  <b>Docente</b><br>
+  Hugo Allan Mori Paiva
+</p>
+
+<p align="center">
+  <b>Equipo</b><br>
+  Performily
+</p>
+
+<p align="center">
+  <b>Proyecto</b><br>
+  Flowboard
+</p>
+
+<p align="center"><b>Integrantes</b></p>
+
+<p align="center">
+<div align="center">
+
+<table align="center" style="display: table; width: auto; margin: 0 auto; border: none;">
+  <tr>
+    <td style="border: none; padding: 2px 16px;"><b>Código</b></td>
+    <td style="border: none; padding: 2px 16px;"><b>Apellidos y Nombres</b></td>
+  </tr>
+  <tr>
+    <td style="border: none; padding: 2px 16px;">u202412270</td>
+    <td style="border: none; padding: 2px 16px;">Ávila De La Cruz, Darío Fabián</td>
+  </tr>
+  <tr>
+    <td style="border: none; padding: 2px 16px;">u202412663</td>
+    <td style="border: none; padding: 2px 16px;">Diaz Villalba, Diego Alonso</td>
+  </tr>
+  <tr>
+    <td style="border: none; padding: 2px 16px;">u202419655</td>
+    <td style="border: none; padding: 2px 16px;">Galvez Meza, Salym Pool</td>
+  </tr>
+    <tr>
+    <td style="border: none; padding: 2px 16px;">u202415749</td>
+    <td style="border: none; padding: 2px 16px;">Li Gayoso, Diana Carolina</td>
+  </tr>
+  <tr>
+    <td style="border: none; padding: 2px 16px;">u202410478</td>
+    <td style="border: none; padding: 2px 16px;">Vasquez Llave, Oscar Lizandro</td>
+  </tr>
+</table>
+
+</div>
+</p>
+
+
+<p align="center">
+  Período 202620<br>
+  Septiembre 2026
+</p>
+
+<div style="page-break-after: always;"></div>
+
+# Registro de Versiones del Informe
+
+| Versión | Fecha | Autor | Descripción de modificación |
+| ----- | ----- | ----- | ----- |
+| v0.1 | 31/08/2026 | Vasquez Llave, Oscar Lizandro | Elaboración del Capítulo I. Startup Profile con la descripción de la startup y los perfiles del equipo (1.1, 1.1.1 y 1.1.2), y apertura del Solution Profile (1.2). |
+| v0.2 | 01/09/2026 | Vasquez Llave, Oscar Lizandro | Redacción de Antecedentes y problemática con la técnica 5W2H, objetivos y restricciones (1.2.1), y del Lean UX Process completo: Problem Statements, Assumptions, Hypothesis Statements y Canvas (1.2.2 a 1.2.2.4). |
+| v0.3 | 02/09/2026 | Vasquez Llave, Oscar Lizandro | Elaboración de Segmentos objetivo con datos de INEI y EY Perú (1.3), y del Capítulo II. Competidores con el Competitive Analysis Landscape y las estrategias y tácticas frente a competidores (2.1, 2.1.1 y 2.1.2). |
+| v0.4 | 03/09/2026 | Diaz Villalba, Diego Alonso | Elaboración de Entrevistas y del Diseño de entrevistas, con los bloques demográfico, de contexto laboral, de personalidad y las preguntas principales por segmento (2.2 y 2.2.1). |
+| v0.5 | 04/09/2026 | Ávila De La Cruz, Darío Fabián | Registro de las seis entrevistas, tres por segmento, y análisis con porcentajes de características objetivas y subjetivas (2.2.2 y 2.2.3). |
+| v0.6 | 07/09/2026 | Ávila De La Cruz, Darío Fabián | Desarrollo del Needfinding: User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping en UXPressia (2.3 a 2.3.4). |
+| v0.7 | 08/09/2026 | Diaz Villalba, Diego Alonso | Construcción del Big Picture Event Storming en Miro, con eventos de dominio, comandos, actores, políticas y los siete bounded contexts (2.4). |
+| v0.8 | 09/09/2026 | Galvez Meza, Salym Pool | Elaboración del Ubiquitous Language con los términos del dominio de negocio en inglés y su definición (2.5). |
+| v0.9 | 10/09/2026 | Diaz Villalba, Diego Alonso | Redacción del Capítulo III. User Stories con los nueve epics y sus criterios de aceptación en estructura Gherkin, y Product Backlog priorizado con story points (3.1 y 3.3). |
+| v0.10 | 11/09/2026 | Ávila De La Cruz, Darío Fabián | Elaboración del Impact Mapping a partir de los objetivos de negocio y los actores identificados en el Needfinding (3.2). |
+| v0.11 | 14/09/2026 | Li Gayoso, Diana Carolina | Elaboración del Capítulo IV. Style Guidelines con branding, tipografía, colores, espaciado y tono de comunicación, y Web Style Guidelines con los componentes de Angular Material (4.1, 4.1.1 y 4.1.2). |
+| v0.12 | 15/09/2026 | Li Gayoso, Diana Carolina | Elaboración de la Information Architecture completa: Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems y Navigation Systems (4.2 a 4.2.5). |
+| v0.13 | 15/09/2026 | Vasquez Llave, Oscar Lizandro | Elaboración del Landing Page UI Design con wireframe y mock-up, apertura del Web Applications UX/UI Design, wireframes de la Web Application y prototipo navegable (4.3 a 4.4.1 y 4.5). |
+| v0.14 | 16/09/2026 | Ávila De La Cruz, Darío Fabián | Elaboración de los Wireflow Diagrams y de los Mock-ups de la Web Application, de WA-01 a WA-65 (4.4.2 y 4.4.3). |
+| v0.15 | 16/09/2026 | Galvez Meza, Salym Pool | Elaboración de los User Flow Diagrams de la Web Application para los dos segmentos objetivo, con su user goal y su trazabilidad al backlog (4.4.4). |
+| v0.16 | 17/09/2026 | Diaz Villalba, Diego Alonso | Elaboración de la Domain-Driven Software Architecture con el Design-Level Event Storming y los diagramas C4 de contexto, contenedores y componentes, los Class Diagrams y el Database Design (4.6 a 4.8.1). |
+| v0.17 | 17/09/2026 | Galvez Meza, Salym Pool | Elaboración del Capítulo V. Software Configuration Management y la implementación, validación y despliegue del Sprint 1 (5.1 a 5.2.1.8). |
+| v1.0 | 18/09/2026 | Vasquez Llave, Oscar Lizandro | Integración y cierre del informe: portada, Registro de Versiones, Project Report Collaboration Insights, Student Outcome, tabla de Contenido, Conclusiones y Anexos. |
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Project Report Collaboration Insights
+
+El informe del AV1 se redactó de forma colaborativa en un repositorio de la organización pública de GitHub del equipo, de modo que cada aporte quede registrado con su autor y su fecha. La organización del proyecto es la siguiente:
+
+Organización en GitHub: https://github.com/Performily-OpenSource
+
+Repositorio del informe: `![completar: URL del repositorio del informe dentro de la organización]`
+
+Repositorio del Landing Page: https://github.com/Performily-OpenSource/flowboard-landing-page
+
+El trabajo se distribuyó por secciones según el reparto declarado en el Registro de Versiones. Cada integrante trabajó su sección en una rama propia y la integró mediante Pull Request, de manera que el historial del repositorio permite verificar qué parte del informe elaboró cada persona y en qué momento del ciclo lo hizo.
+
+![imagen]
+
+*Figura A. Analíticos de colaboración del repositorio del informe. Captura de la pestaña Insights, vista Contributors.*
+
+![imagen]
+
+*Figura B. Commits por integrante en el repositorio del informe. Captura de la pestaña Insights, vista Commits.*
+
+![Analíticos de colaboración del Sprint 1](assets/figura-02.png)
+
+*Figura C. Analíticos de colaboración del repositorio del Landing Page durante el Sprint 1.*
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Student Outcome
+
+El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student Outcome 3 del criterio ABET – EAC, que establece la capacidad de comunicarse efectivamente con un rango de audiencias. En esta sección cada integrante del equipo declara las acciones concretas que realizó durante la elaboración del AV1 para desarrollar ese resultado, junto con las conclusiones grupales del avance.
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+| ----- | ----- | ----- |
+| Comunica oralmente sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** condujo tres de las seis entrevistas de investigación con representantes reales de los dos segmentos, adaptando el vocabulario del guion al perfil de cada entrevistado y evitando preguntas dirigidas. Expuso ante el equipo los hallazgos del Needfinding y sustentó la elección de los arquetipos. <br> **Diaz Villalba, Diego Alonso:** presentó al equipo el Big Picture Event Storming y explicó la división del dominio en siete bounded contexts, traduciendo vocabulario técnico de Domain-Driven Design a términos del negocio de recursos humanos. <br> **Galvez Meza, Salym Pool:** sustentó ante el equipo la propuesta de Ubiquitous Language y los criterios de traducción de los términos del dominio al inglés, y explicó el avance del Sprint 1 en la reunión de Sprint Review. <br> **Li Gayoso, Diana Carolina:** expuso la guía de estilo y la arquitectura de información, justificando las decisiones de color, tipografía y etiquetado ante un equipo con distinto nivel de formación en diseño. <br> **Vasquez Llave, Oscar Lizandro:** condujo las reuniones de planificación del equipo y presentó el Lean UX Canvas y los segmentos objetivo, ajustando el nivel de detalle según se tratara de una audiencia de diseño o de desarrollo. | El equipo comprobó que la comunicación oral efectiva depende de identificar primero el perfil de la audiencia. Las entrevistas mostraron que el vocabulario técnico del proyecto no es comprensible para el personal de Recursos Humanos, y que hay que traducirlo a los términos que esa persona usa en su trabajo diario. Las reuniones internas mostraron lo contrario: dentro del equipo, la precisión técnica evita retrabajo. Queda pendiente para la siguiente entrega la exposición formal ante el docente, que es la audiencia con mayor exigencia de rigor. |
+| Comunica por escrito sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** redactó el registro y el análisis de las entrevistas con porcentajes verificables, y documentó los User Personas, el User Task Matrix, los User Journey Maps y los Empathy Maps, además del Impact Mapping. <br> **Diaz Villalba, Diego Alonso:** redactó el diseño de entrevistas, las User Stories con criterios de aceptación en estructura Gherkin, el Product Backlog priorizado y toda la documentación de la arquitectura orientada al dominio, incluidos los diagramas C4, de clases y de base de datos. <br> **Galvez Meza, Salym Pool:** redactó el Ubiquitous Language, los User Flow Diagrams con su objetivo de usuario declarado y el Capítulo V completo de implementación, validación y despliegue. <br> **Li Gayoso, Diana Carolina:** redactó la guía de estilo general y web y la arquitectura de información completa, sustentando cada decisión con el criterio de accesibilidad WCAG 2.1 correspondiente. <br> **Vasquez Llave, Oscar Lizandro:** redactó el Capítulo I completo, el análisis competitivo y las estrategias frente a competidores, el diseño del Landing Page y de los wireframes de la Web Application, y realizó la integración y revisión de coherencia del informe. | El equipo verificó que el informe se dirige a dos audiencias con necesidades distintas. El docente evalúa rigor metodológico y trazabilidad entre capítulos, por lo que exige que cada afirmación tenga respaldo en una fuente citable o en un dato primario del levantamiento propio. El equipo de desarrollo, en cambio, necesita precisión operativa: códigos de pantalla, identificadores de historia y nombres de contexto que no cambien entre secciones. Mantener un solo vocabulario en los cinco capítulos resultó ser la decisión que más redujo ambigüedad. Queda pendiente reforzar la citación en formato APA de las fuentes que todavía no tienen entrada en la bibliografía. |
+
+<div style="page-break-after: always;"></div>
+---
+
+# Contenido
+
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation-deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services-applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+- [Conclusiones](#conclusiones)
+- [Anexos](#anexos)
+  - [Anexo A. Videos de Exposiciones](#anexo-a-videos-de-exposiciones)
+  - [Anexo B. Enlaces a los artefactos del proyecto](#anexo-b-enlaces-a-los-artefactos-del-proyecto)
+- [Bibliografía](#bibliografía)
+
+<div style="page-break-after: always;"></div>
+
+# Capítulo I: Introducción
+
+## 1.1. Startup Profile
+
+### 1.1.1. Descripción de la Startup
+
+> Somos Performily, una startup que está conformada por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC). Esta iniciativa surge con el propósito de desarrollar soluciones tecnológicas orientadas en facilitar los procesos de los trabajadores empresariales.
+>
+> La razón de ser de nuestra startup radica en la necesidad de contar con herramientas que permitan a las personas gestionar de manera eficiente sus actividades y flujos de trabajo, lo cual favorece a la mejora del clima laboral e impulsa un entorno productivo dentro de la organización. Nuestra meta es brindar a los usuarios una herramienta que les permita tener control práctico y accesible de las gestiones de diferentes áreas empresariales mediante soluciones digitales intuitivas.
+>
+> **Misión:**  
+> Crear soluciones tecnológicas innovadoras que faciliten la gestión de personas en las organizaciones y promuevan la eficiencia laboral y la sostenibilidad.
+>
+> **Visión:**
+>
+> Para este 2026, consolidarnos como una startup referente en soluciones tecnológicas para la gestión de colaboradores y el impulso de la eficiencia en los procesos internos para contribuir a una sociedad con entornos laborales más profesionales y organizados.
+
+### 1.1.2. Perfiles de integrantes del equipo
+
+| Darío Ávila De La Cruz (u202412270): Ingeniería de software |   |
+| --- | --- |
+| ![Foto de Darío Ávila](assets/figura-03.jpg) | Mi nombre es Darío Ávila, soy estudiante universitario de la carrera de Ingeniería de Software, cursando el 6.º ciclo. Cuento con conocimientos en lenguajes de programación C++ y Python, lo que me permite desarrollar soluciones técnicas eficientes y adaptables. Practico la escucha activa para comprender a fondo las necesidades tanto del equipo como de los clientes, asegurando que los objetivos se alineen con las expectativas. Además, busco soluciones innovadoras que integren distintas perspectivas, fomentando la colaboración y la creatividad. Soy flexible ante cambios inesperados en los proyectos, adaptándome rápidamente a nuevas prioridades o requerimientos. |
+| Diego Alonso Diaz Villalba (u202412663): Ingeniería de software |   |
+| ![Foto de Diego Diaz](assets/figura-04.png) | Cuento con formación en Psicología y actualmente curso la carrera de Ingeniería de Software, lo que me permite integrar habilidades humanas con conocimientos técnicos. Tengo experiencia en la conducción de entrevistas, la identificación de necesidades mediante observación y escucha activa, así como en la toma de decisiones fundamentadas. Me interesa especialmente el diseño de software, con énfasis en el análisis de requerimientos, la experiencia de usuario (UX), la interfaz de usuario (UI) y la usabilidad de las aplicaciones. Me motiva crear soluciones tecnológicas que no solo sean funcionales, sino también intuitivas y accesibles para los usuarios. |
+| Salym Pool Galvez Meza (u202419655): Ingeniería de Software |   |
+| ![Foto de Salym Galvez](assets/figura-05.png) | Soy Salym Galvez, una persona con sólidas habilidades blandas como el pensamiento crítico y la escucha activa, lo que me permite analizar situaciones para encontrar soluciones efectivas y potenciar el trabajo en equipo. Me adapto con facilidad a distintos entornos, soy proactivo, responsable y orientado a resultados. En el aspecto técnico, cuento con conocimientos en C++ enfocados en la optimización de recursos, así como en el levantamiento de bases de datos y el desarrollo de sitios web utilizando JavaScript, HTML y CSS. Busco siempre aprender cosas nuevas para crecer profesionalmente y aportar valor práctico y técnico en cada proyecto en el que participo. |
+| Diana Carolina Li Gayoso (u202415749): Ingeniería de Software |   |
+| ![Foto de Diana Li](assets/figura-06.jpg) | Soy Diana Li Gayoso, tengo 19 años, estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos en arquitectura de software y desarrollo backend, así como en SQL y C++. Me considero una persona responsable, disciplinada y perseverante, con capacidad para afrontar retos y adaptarme a diferentes situaciones. Me caracterizo por mi compromiso, resiliencia y puntualidad, además de mi constante interés por seguir aprendiendo y mejorar mis habilidades. |
+| Oscar Lizandro Vasquez Llave (u202410478): Ingeniería de Software |   |
+| ![Foto de Oscar Vasquez](assets/figura-07.png) | Soy estudiante de Ingeniería de Software con formación en desarrollo de aplicaciones y gestión de proyectos tecnológicos. Cuento con conocimientos en C++, HTML, CSS, JavaScript, diseño de interfaces de usuario con Figma y uso de herramientas de control de versiones como Git. Me destaco por mi compromiso para aprender nuevas tecnologías, además de mis habilidades para trabajar en equipo y adaptarme a diferentes entornos. Tengo capacidad para analizar y resolver problemas técnicos de forma eficiente. Poseo iniciativa para proponer mejoras, disposición para colaborar en proyectos multidisciplinarios y motivación por adquirir nuevos conocimientos que fortalezcan mi desarrollo profesional. |
+
+## 1.2. Solution Profile
+
+### 1.2.1. Antecedentes y problemática
+
+- **What (Qué):**
+
+> La gestión del talento humano enfrenta una crisis de eficiencia caracterizada por una profunda carga burocrática y una dependencia crítica de procesos manuales. Esta problemática central se ve agravada por el uso de métodos empíricos y la preocupante ausencia de planificación estratégica en las organizaciones, lo que obliga a los gestores a operar basándose exclusivamente en la experiencia personal.
+>
+> Esta estructura burocrática y el uso de herramientas obsoletas desencadenan síntomas directos que afectan la salud organizacional. El síntoma más visible es el incremento de la presión sobre el personal, ya que la alta presión y el estrés perjudican drásticamente la productividad de los empleados, lo que dificulta su desarrollo. Al carecer de recursos adecuados para realizar tareas repetitivas, surge una alta incidencia de malas prácticas en las condiciones laborales, un fenómeno alarmante que afecta al 50% de las organizaciones en América Latina, según destacan Bautista et al. (2020) .
+>
+> La insatisfacción del trabajador aparece como una consecuencia inevitable de este sistema arcaico. Ortiz et al. (2024) advierten que cuando la alineación entre las metas estratégicas de la institución y las habilidades de los trabajadores es débil o inexistente, la evaluación del desempeño es percibida de manera negativa por el personal, reduciendo su productividad general. Esto erosiona el compromiso hacia la empresa y genera un clima organizacional donde la desmotivación puede conducir a resultados más negativos.
+>
+> En este contexto, la revisión sistemática de Tejada (2025) confirma que depender de procesos tradicionales hace imposible alcanzar los planes y metas trazadas por las entidades. Por lo tanto, para recuperar la celeridad operativa y eliminar la burocracia, resulta imperativo automatizar los procedimientos ligados a la gestión de los recursos humanos a través de herramientas tecnológicas adecuadas.
+
+- **When (Cuándo):**
+
+> La problemática se presenta de manera constante a lo largo de todo el ciclo de gestión del recurso humano en procesos como el registro y actualización de datos del personal, el control diario de asistencia y puntualidad, el procesamiento periódico de planillas y la gestión de beneficios laborales, sobre todo cuando el registro de estos datos es manual. Asimismo, se intensifica en situaciones que involucran la solicitud y aprobación de vacaciones, licencias o permisos, donde la dependencia de procesos manuales genera retrasos acumulativos. De igual forma, el problema se evidencia con mayor impacto en periodos de cierre de nómina o evaluaciones de desempeño, donde la carga operativa aumenta y los errores se vuelven más frecuentes.
+
+- **Where (Dónde):**
+
+> La problemática ocurre dentro de las organizaciones que carecen de sistemas digitales integrados para la gestión de recursos humanos, donde se emplean herramientas dispersas como hojas de cálculo, documentos físicos y sistemas aislados que no comparten información entre sí. En el Perú este escenario tiene respaldo estadístico. El estudio de madurez digital de EY Perú (2024) ubica apenas al 9% de las organizaciones peruanas en un estado avanzado, mientras que el 73% se encuentra en estado encaminado y el 17% permanece en estado incipiente, con un índice nacional de 61.46 puntos sobre 100. Dicho de otro modo, más de nueve de cada diez organizaciones del país todavía tienen procesos pendientes de digitalizar, y el área de Recursos Humanos suele estar entre las últimas de la fila porque no se percibe como un área crítica del negocio.
+
+- **Who (Quién):**
+
+> Los afectados directos son, en primer lugar, los trabajadores quienes experimentan desconfianza y frustración al no contar con acceso directo a su información, el estado de sus solicitudes o la claridad sobre sus beneficios, lo que deteriora su experiencia y compromiso laboral. En segundo lugar está el área de RRHH, la cual enfrenta una sobrecarga administrativa crítica al tener que resolver consultas repetitivas y gestionar procesos ineficientes que consumen tiempo valioso.
+
+- **Why (Por qué):**
+
+> La problemática persiste porque las organizaciones carecen de una transformación digital efectiva que integre sus procesos en una plataforma centralizada, lo que obliga a depender de sistemas fragmentados y métodos manuales que vulneran la integridad de los datos. Esta situación se agrava por una marcada resistencia al cambio y la carencia de competencias digitales en el personal, lo que impide que la información laboral fluya con transparencia y agilidad. Por lo tanto, se generan cuellos de botella en las aprobaciones, errores frecuentes en la gestión de beneficios y una incapacidad estructural para realizar análisis estratégicos o predictivos sobre el capital humano. Además, la ausencia de flujos automatizados y de una "fuente única de verdad" limita la capacidad de RRHH para dejar de ser un área meramente operativa y convertirse en un socio estratégico para la toma de decisiones
+
+- **How (Cómo):**
+
+> El problema se manifiesta mediante una gestión operativa basada en métodos convencionales y registros físicos que entorpecen la agilidad organizacional. Los procesos de asistencia, solicitudes de licencias y el cálculo de planillas dependen de la verificación manual y el reingreso constante de datos en archivos aislados. Al respecto, Feriandy (2025) explica que el uso de estas herramientas obsoletas limita la capacidad de análisis y retrasa la atención de requerimientos internos. Asimismo, Anggoro et al. (2026) sostienen que esta dinámica operativa incrementa la opacidad en la información y deriva en decisiones de promoción fundamentadas en la intuición en lugar de métricas objetivas.
+
+- **How much (Cuánto):**
+
+> El uso de métodos manuales en la gestión de recursos humanos impacta negativamente en la rentabilidad y el tiempo operativo de las empresas. Feriandy (2025) detalla que el procesamiento de asistencia y tareas administrativas requiere entre 3 y 5 días por ciclo bajo un esquema convencional. Bajo estas condiciones, la tasa de errores en el ingreso de datos alcanza niveles del 15% al 20% de las transacciones. En el área de compensaciones, los errores de cálculo salarial afectan del 10% al 15% de los pagos realizados. Desde la perspectiva del colaborador, el acceso a información personal demanda un promedio de 150 minutos por solicitud. La burocracia en los flujos de aprobación extiende la espera para licencias o vacaciones entre 48 y 72 horas. Anggoro et al. (2026) contrastan estos indicadores con los sistemas digitales, los cuales reducen los errores a menos del 2% y agilizan el acceso a la información a menos de 5 minutos.
+
+A partir del análisis anterior, la solución propuesta debe resolver de forma prioritaria:
+
+1.  **La fragmentación de la información laboral.** Consolidar en un único repositorio la ficha del colaborador, la estructura organizacional, la asistencia, los beneficios y las solicitudes, que hoy viven en hojas de cálculo, documentos físicos y sistemas que no se comunican entre sí.
+
+2.  **La doble digitación.** Eliminar el reingreso del mismo dato del colaborador en planillas de asistencia, archivos de beneficios y registros de personal, que es donde se origina la mayoría de los errores de información reportados.
+
+3.  **La asimetría de información hacia el colaborador.** Permitir que cada trabajador consulte por sí mismo su remuneración asignada, sus beneficios y su saldo de vacaciones, sin intermediación del área de Recursos Humanos.
+
+4.  **La opacidad de los flujos de aprobación.** Dar estado visible y trazabilidad a las solicitudes de vacaciones, licencias y permisos, dirigiéndolas al responsable correcto según la jerarquía declarada en el sistema.
+
+5.  **El descontrol de los saldos de vacaciones.** Mantener actualizados los días acumulados y usados por colaborador, que hoy se calculan de forma manual y son la principal fuente de disputa entre el trabajador y el área.
+
+6.  **La ausencia de información para decidir.** Entregar al área de Recursos Humanos indicadores agregados que hoy no existen porque los datos están dispersos.
+
+**Objetivos del proyecto**
+
+**Objetivo general**
+
+> Desarrollar y desplegar Flowboard, una solución web distribuida bajo arquitectura orientada a servicios, que consolide en una fuente única de verdad la información del vínculo laboral en organizaciones en crecimiento, y que reduzca de forma medible el tiempo de acceso a esa información y el tiempo de resolución de las solicitudes del personal.
+>
+> **Objetivos específicos**
+
+1.  Implementar un Landing Page estático, responsive y accesible, con call to action diferenciados por segmento objetivo que redirijan a la vista correspondiente de la aplicación web.
+
+2.  Implementar un RESTful API de elaboración interna con Spring Boot y Spring Data JPA, documentado bajo OpenAPI vía Swagger, organizado en los siete bounded contexts identificados en el dominio: identidad y acceso, colaborador y estructura organizacional, asistencia, solicitudes, beneficios, pagos y bienestar.
+
+3.  Implementar una Web Application en Angular integrada con dicho API, con interfaz adaptable a las dimensiones del dispositivo cliente y con dos experiencias diferenciadas por rol: administración para Recursos Humanos y autogestión para el colaborador.
+
+4.  Integrar al menos un servicio externo de terceros para el envío de notificaciones por correo a solicitantes y aprobadores, con un proveedor transaccional de correo ⟨el equipo elige: Brevo, Resend, SendGrid u otro⟩. Como integración adicional se evalúa una API pública de feriados nacionales para el cómputo de días hábiles en las solicitudes de vacaciones, verificando previamente que el proveedor cubra Perú.
+
+5.  Habilitar internacionalización bajo i18n para English (en_US) y Latin American Spanish (es_419), y accesibilidad bajo a11y con atributos ARIA en el Landing Page y la Web Application.
+
+6.  Validar las hipótesis del proceso Lean UX mediante entrevistas de investigación y de validación con representantes reales de ambos segmentos objetivo.
+
+7.  Desplegar los tres productos digitales sobre plataformas server-side o cloud usando exclusivamente tecnologías open source.
+
+> **Restricciones y delimitación del alcance**
+>
+> **Restricciones de tiempo y equipo**
+>
+> El ciclo de vida completo se ejecuta en 16 semanas académicas, organizadas en 4 sprints, con un equipo de 5 estudiantes de dedicación parcial.
+>
+> **Restricciones tecnológicas**
+>
+> El stack lo fija el curso: HTML5, CSS3 y JavaScript para el Landing Page; Angular con TypeScript y Angular Material para la Web Application; Java con Spring Boot y Spring Data JPA para los servicios; y GitHub con GitFlow, Conventional Commits y Semantic Versioning para el control de versiones. El lenguaje por defecto de la interfaz y de la documentación de todos los productos es inglés.
+>
+> **Restricciones de alcance funcional**
+>
+> El módulo de Pagos es de consulta, no de cálculo. No calcula remuneraciones, no aplica descuentos ni aportes, no emite boletas de pago ni archivos para entidades recaudadoras, y no reemplaza al sistema contable o de planilla que la organización ya utiliza.
+>
+> El módulo de Asistencia es de registro y consulta. Se registran faltas, puntualidad y horas trabajadas, y se derivan las horas efectivas y el sobretiempo respecto de la jornada esperada del puesto. La plataforma no deriva de forma automática descuentos, bonificaciones ni pagos a partir de esos registros.
+>
+> El módulo de Bienestar registra y clasifica lecturas ambientales de los espacios de trabajo. Flowboard no provee ni comercializa sensores: consume las lecturas que se registren en la plataforma y las traduce en indicadores según umbrales configurables por la organización. En esta versión las lecturas se generan como datos de prueba.
+>
+> No se implementa migración ni importación masiva de datos históricos desde Excel o CSV. La carga inicial de información se realiza de forma manual desde la propia plataforma. La migración asistida se considera parte del roadmap posterior al presente ciclo y se documenta como tal en la sección de Conclusiones y recomendaciones.
+>
+> Quedan también fuera del alcance la integración con hardware de marcación biométrica o relojes de asistencia físicos, ya que el registro es digital vía navegador; las aplicaciones móviles nativas, porque la experiencia móvil se resuelve con diseño responsive; la firma electrónica legalmente vinculante de documentos; los módulos de reclutamiento y selección, evaluación de desempeño por competencias y encuestas de clima organizacional; y las integraciones con ERP contables de terceros.
+>
+> **Restricciones legales y éticas**
+>
+> El tratamiento de datos personales de los colaboradores se sujeta a la Ley N.° 29733, Ley de Protección de Datos Personales, y su reglamento. Dado que la plataforma expone información remunerativa, el acceso debe restringirse estrictamente según el rol: el colaborador visualiza únicamente su propia información.
+>
+> Los términos y condiciones de servicio se exponen mediante enlace en el footer del Landing Page y de la aplicación, redactados conforme a los principios del código de ética de ACM/IEEE y del Colegio de Ingenieros del Perú.
+
+### 1.2.2. Lean UX Process
+
+#### 1.2.2.1. Lean UX Problem Statements
+
+**Domain (Dominio):**
+
+> El dominio de este proyecto se sitúa en la Gestión del Capital Humano (HCM) y la Transformación Digital de Recursos Humanos (HRIS) para organizaciones modernas. El enfoque principal aborda la transición necesaria de métodos manuales hacia sistemas de información integrados que aseguren la eficiencia operativa y el cumplimiento de las normativas laborales vigentes.
+
+**Customer Segments (Segmentos de Clientes):**
+
+> En primer lugar, los analistas de recursos humanos enfrentan una sobrecarga administrativa crítica al gestionar procesos ineficientes que consumen tiempo valioso, lo que los obliga a operar basándose en la experiencia personal ante la ausencia de planificación estratégica. Su principal dificultad radica en la verificación manual y el reingreso constante de datos en archivos aislados, lo que incrementa la incidencia de errores en la información del personal y dificulta la transparencia en la entrega de beneficios o bonificaciones pactadas. Esta problemática se intensifica debido a la carencia de un sistema centralizado, lo que fragmenta la información laboral en herramientas obsoletas y métodos convencionales que vulneran la integridad de los datos.
+>
+> En segundo lugar, los empleados generales experimentan desconfianza y frustración al no contar con acceso directo a su propia información laboral, como saldos de vacaciones o el estado de sus solicitudes. Esta asimetría informativa los obliga a depender de consultas repetitivas hacia el área de RR.HH., generando una espera de entre 48 y 72 horas para aprobaciones básicas, lo que deteriora su experiencia y compromiso con la empresa.
+>
+> **Pain Points (Puntos de Dolor):**
+>
+> La problemática actual genera costos específicos y estrés organizacional debido a una carga administrativa excesiva. Al respecto, Feriandy (2025) detalla que el procesamiento manual de asistencia y tareas operativas consume entre 3 y 5 días por ciclo. Esta ineficiencia se traduce en una tasa de errores en el ingreso de datos de entre el 15% y 20%, lo cual impacta incluso en el 10% al 15% de los cálculos salariales. Asimismo, la burocracia actual obliga al trabajador a invertir un promedio de 150 minutos solo para acceder a su información personal y esperar entre 48 y 72 horas para la aprobación de una licencia.
+>
+> **Gap (La Brecha):**
+>
+> Existe una brecha tecnológica entre la necesidad de agilidad de las empresas modernas y la persistencia de herramientas obsoletas como el papel o los archivos de Excel aislados. Según explican Anggoro et al. (2026), esta fragmentación de la información impide que las organizaciones optimicen sus funciones de recursos humanos mediante el uso efectivo de tecnología integrada. En el caso peruano, la brecha se sostiene sobre dos condiciones que las propias empresas reconocen: el 62% considera no contar con las competencias digitales necesarias, y las dos barreras que más declaran para su transformación digital son la resistencia al cambio, con 48%, y un déficit de personal capacitado, con 45% (EY Perú, 2024). Feriandy (2025) sostiene que esta disparidad genera una incapacidad estructural para realizar análisis estratégicos o predictivos sobre el capital humano, lo cual limita la competitividad en la era digital.
+>
+> Lo que los productos y servicios existentes no logran resolver es generar una fuente única de verdad sobre el vínculo laboral que sea accesible para ambas partes. Las plataformas del mercado se construyeron alrededor del motor de remuneraciones y de las necesidades del área administrativa, y dejan al colaborador como receptor pasivo de información que no puede consultar por sí mismo.
+>
+> **Vision/Strategy (Visión y Estrategia):**
+
+- Para el 2030, ser una startup referente en soluciones tecnológicas para la gestión de colaboradores en el Perú y la región, reconocida por devolverle al trabajador la transparencia sobre su propia información laboral y por contribuir a entornos de trabajo más organizados y confiables.
+
+> **Initial Segment (Segmento Inicial):**
+
+- El enfoque inicial se dirigirá a organizaciones que enfrentan una crisis de eficiencia caracterizada por una profunda carga burocrática y una dependencia crítica de procesos manuales. Para ello, evaluaremos indicadores en las organizaciones como la tasa de error en transacciones, el tiempo de procesamiento por ciclo de asistencia y el tiempo de respuesta a solicitudes de información personal. El perfil ideal son entidades donde el crecimiento del personal ha vuelto imposible alcanzar las metas trazadas mediante métodos tradicionales, requiriendo una transformación hacia la toma de decisiones basada en datos. Esto significa que el segmento inicial se concentra en empresas cuyo aumento en la cantidad de colaboradores ha superado la capacidad de sus sistemas de control actuales (como hojas de cálculo o registros físicos).
+
+> **Success Criteria (Criterios de éxito):**
+
+- Los colaboradores generales consultan su saldo de vacaciones, sus beneficios, sus boletas y el estado de sus solicitudes directamente en la plataforma, en lugar de escribir o llamar al área de Recursos Humanos: al menos el 70% de las consultas de información laboral se resuelven en autoservicio al tercer mes de uso.
+
+- Los analistas de Recursos Humanos dejan de mantener hojas de cálculo paralelas como respaldo de la información que ya vive en la plataforma.
+
+- Los jefes de área resuelven las solicitudes que reciben en menos de 24 horas desde la notificación.
+
+- El 100% de las solicitudes de vacaciones, licencias y permisos queda registrado con su estado y su responsable identificables, sin que ninguna circule por canales informales.
+
+- El analista de Recursos Humanos responde las cinco preguntas operativas del protocolo de medición de HS-06 en menos de 2 minutos en total y sin abrir ningún archivo fuera de la plataforma.
+
+> El estado actual de la gestión del capital humano en organizaciones en crecimiento se ha centrado principalmente en analistas de recursos humanos y colaboradores generales, que enfrentan sobrecarga administrativa, información dispersa en archivos aislados y ausencia de acceso autónomo a la información laboral, operando mediante flujos de registro de personal, control de asistencia y aprobación de solicitudes que se ejecutan de forma manual y se verifican uno por uno.
+>
+> Lo que los productos y servicios existentes no logran resolver es generar una fuente única de verdad sobre el vínculo laboral que sea accesible para ambas partes. Las plataformas del mercado se construyeron alrededor del motor de remuneraciones y de las necesidades del área administrativa, y dejan al colaborador como receptor pasivo de información que no puede consultar por sí mismo.
+>
+> Nuestro producto abordará esta brecha mediante una plataforma web centralizada que consolida en un solo registro la ficha del colaborador, la estructura organizacional, la asistencia, los beneficios, las boletas de pago y las solicitudes, y que expone esa información directamente al trabajador mediante un módulo de autogestión.
+>
+> Nuestro foco inicial será organizaciones de 50 a 500 colaboradores cuyo crecimiento ha superado la capacidad de sus sistemas de control actuales, y que aún gestionan recursos humanos con hojas de cálculo y registros físicos.
+>
+> Sabremos que hemos tenido éxito cuando observemos que los colaboradores consultan su saldo de vacaciones, su remuneración y sus beneficios directamente en la plataforma en lugar de escribir al área de Recursos Humanos; que los analistas dejan de mantener hojas de cálculo paralelas como respaldo; que los jefes de área resuelven las solicitudes desde la notificación recibida en menos de 24 horas; y que ninguna solicitud circula por canales informales sin dejar registro de su estado y su responsable.
+
+#### 1.2.2.2. Lean UX Assumptions
+
+> A partir de la sesión de trabajo del equipo sobre el dominio del problema, se enumeran a continuación las creencias que sostenemos y que aún no han sido validadas. Estas creencias constituyen la base de los Hypothesis Statements de la sección siguiente.
+>
+> **Business Assumptions**
+
+- Creemos que existe un mercado suficientemente amplio de organizaciones de entre 50 y 500 colaboradores que gestionan recursos humanos con hojas de cálculo y documentos físicos, y que ese mercado está dispuesto a pagar por resolverlo.
+
+- Creemos que ese segmento está desatendido, porque las plataformas consolidadas se orientan a corporaciones con presencia multinacional (Buk, Rex+) o a empresas ya digitalizadas (Factorial).
+
+- Creemos que nuestra ventaja competitiva sostenible será la transparencia hacia el colaborador y la consolidación del vínculo laboral en una fuente única de verdad, y no la amplitud del catálogo de módulos ni la potencia del motor de remuneraciones, donde no podemos competir contra actores consolidados.
+
+- Creemos que un modelo de suscripción mensual por colaborador activo, con planes escalables según funcionalidades, es viable y aceptado por este segmento.
+
+- Creemos que una plataforma que muestra la remuneración y los beneficios sin calcularlos genera valor suficiente para este segmento, porque el dolor declarado es la inaccesibilidad y la dispersión de la información, no la exactitud del cálculo tributario.
+
+- Creemos que Flowboard puede coexistir con el sistema contable o de planilla que la organización ya utiliza, y que esa coexistencia no será un obstáculo para la adopción.
+
+- Creemos que el equipo cuenta con las capacidades técnicas y el tiempo para construir y desplegar la solución completa (Landing Page, Web Application y RESTful API) dentro del ciclo académico, usando exclusivamente tecnologías open source.
+
+- Creemos que las alianzas con consultoras de transformación digital pueden reducir nuestro costo de adquisición de clientes frente a competidores con mayor presupuesto de marketing.
+
+**Business Outcome Assumptions**
+
+- Creemos que el tiempo que el área de Recursos Humanos dedica a responder consultas repetitivas de información laboral se reducirá en al menos 70%.
+
+- Creemos que la tasa de error por información desactualizada o inconsistente en los registros de personal, asistencia y saldos de vacaciones bajará del rango de 15% a 20% reportado en la literatura hasta menos del 2%.
+
+- Creemos que el tiempo promedio de aprobación de una solicitud de vacaciones, licencia o permiso bajará de 48 a 72 horas hasta menos de 24 horas.
+
+- Creemos que el 100% de las solicitudes tendrá estado y responsable identificables, frente a los flujos informales actuales que no dejan registro.
+
+- Creemos que el tiempo que le toma a un colaborador conocer su saldo de vacaciones o el detalle de sus beneficios bajará de 48 a 72 horas hasta menos de 5 minutos.
+
+- Creemos que al menos el 70% de las consultas de información laboral que hoy llegan al área de Recursos Humanos se resolverán en autoservicio al tercer mes.
+
+- Creemos que la retención mensual de organizaciones cliente superará el 90% después del primer trimestre de uso.
+
+- Creemos que la puesta en marcha de una organización nueva, con la configuración de áreas, la jerarquía y el registro inicial de colaboradores, no superará los 5 días hábiles.
+
+- Creemos que el analista de Recursos Humanos podrá responder las preguntas operativas habituales de la gerencia en menos de 2 minutos y sin abrir ningún archivo fuera de la plataforma, frente al tiempo que le toma hoy reunir esa información de varias fuentes, que se medirá como línea base en las entrevistas.
+
+- Creemos que la centralización de las boletas de pago eliminará las solicitudes de reenvío de boletas al área, que hoy se atienden una por una.
+
+**User Assumptions**
+
+- Creemos que nuestro usuario principal es el analista o coordinador de Recursos Humanos: 25 a 55 años, en una organización de 50 a 500 colaboradores, con alta competencia en hojas de cálculo y baja o nula experiencia previa con software especializado de gestión de personas.
+
+- Creemos que el analista de Recursos Humanos es nuestro usuario principal y la puerta de entrada a la organización: es quien siente el dolor con mayor intensidad, quien posee la información necesaria para poner la plataforma en marcha y quien da de alta al resto del personal, por lo que su adopción es condición necesaria para la de los demás.
+
+- Creemos que nuestro segundo usuario es el empleado promedio, de entre 20 y 55 años. Su facilidad para usar la tecnología varía mucho de una persona a otra. No entra al sistema todos los días, pero sí de vez en cuando para trámites puntuales, y lo hace casi siempre desde su celular.
+
+- Creemos que dentro del segmento de colaboradores existe un subperfil de interacción baja pero crítica, el jefe o gerente de área, que aprueba las solicitudes de su equipo según la jerarquía declarada en el sistema, y cuya adopción depende de que la fricción de la aprobación sea mínima.
+
+- Creemos que el decisor de compra, la gerencia general o la administración, no es el mismo actor que el usuario principal, y que evalúa la solución por costo y por riesgo antes que por funcionalidades.
+
+- Creemos que ambos segmentos acceden mediante navegador web y que no exigirán la instalación de una aplicación nativa como condición de uso.
+
+- Creemos que la principal barrera de adopción no es técnica sino cultural: la resistencia a abandonar el archivo de Excel que el analista domina y controla.
+
+- Creemos que exponer la remuneración dentro de la plataforma no generará resistencia por parte de la organización cliente, siempre que cada colaborador vea únicamente su propia información.
+
+**User Outcome and Benefit Assumptions**
+
+- Creemos que el analista de Recursos Humanos quiere dejar de reingresar los mismos datos del colaborador en distintos archivos, y que al lograrlo recuperará horas que puede destinar a tareas de análisis y retención de talento.
+
+- Creemos que el analista quiere dejar de responder consultas repetitivas, y que al lograrlo reducirá la carga mental y las interrupciones de su jornada.
+
+- Creemos que el analista quiere confiar en un único dato al momento de reportar el estado del personal, y que una fuente única de verdad le dará seguridad para sustentar sus cifras ante la gerencia.
+
+- Creemos que el colaborador general quiere saber, en cualquier momento y sin pedírselo a nadie, cuántos días de vacaciones le quedan, qué beneficios le corresponden y en qué estado se encuentra su solicitud.
+
+- Creemos que al obtener esa autonomía el colaborador percibirá mayor transparencia y trato justo de parte de la organización, lo que fortalecerá su confianza y su compromiso.
+
+- Creemos que el jefe de área quiere resolver una aprobación en menos de un minuto, sin abandonar el contexto en el que se encuentra.
+
+- Creemos que tanto el colaborador como el analista quieren evitar la disputa por los días de vacaciones, y que un saldo visible y compartido por ambas partes elimina esa fricción antes de que ocurra.
+
+**Feature Assumptions**
+
+- F1, ficha única del colaborador y estructura organizacional. Creemos que un registro único con datos personales, puesto, área, fecha de ingreso, tipo de contrato y estado (activo, cesado, suspendido), junto con la jerarquía entre jefe y colaborador, eliminará la necesidad de mantener archivos paralelos y permitirá dirigir correctamente las aprobaciones.
+
+- F2, módulo de autogestión del colaborador. Creemos que un portal donde el colaborador consulte sus datos personales, su remuneración asignada, sus beneficios y su saldo de vacaciones eliminará la necesidad de consultar al área de Recursos Humanos.
+
+- F3, registro digital de asistencia. Creemos que un registro digital de faltas, puntualidad y horas trabajadas, visible tanto para el área como para el propio colaborador, reemplazará las planillas de asistencia en papel y en hojas de cálculo, y eliminará las discrepancias sobre lo que quedó efectivamente registrado.
+
+- F4, gestión de beneficios y control de saldo de vacaciones. Creemos que registrar gratificaciones, canastas, vales de consumo y licencias de descanso, junto con el control automático de días acumulados y usados, evitará las omisiones de entrega y las disputas sobre los días que corresponden.
+
+- F5, workflow de solicitudes con estados y notificaciones. Creemos que un flujo con estados visibles (Pendiente, Aprobado, Rechazado), dirigido al jefe correspondiente según la jerarquía y con notificación automática, reducirá el tiempo de resolución de las solicitudes y dará trazabilidad completa.
+
+- F6, repositorio de boletas y estado de pago. Creemos que centralizar las boletas que hoy se envían por correo o se entregan en papel, y registrar el estado del depósito de cada período, eliminará las solicitudes de reenvío y permitirá al área identificar los pagos pendientes sin revisar el sistema contable.
+
+- F7, dashboard de indicadores en tiempo real. Creemos que un panel con indicadores agregados de personal, asistencia, solicitudes y beneficios permitirá al área de Recursos Humanos sustentar decisiones con datos en lugar de con la experiencia personal.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+> Creemos que lograremos reducir a menos del 2% la tasa de error por información desactualizada o inconsistente en los registros de personal. Si los analistas de Recursos Humanos que hoy mantienen la información del colaborador repartida en varias hojas de cálculo y expedientes físicos alcanzan un registro único por colaborador que no requiere reingresar el mismo dato en distintos archivos. Con una ficha única que consolide datos personales, puesto, área, fecha de ingreso, tipo de contrato y estado, junto con la estructura organizacional y la relación entre jefe y colaborador.
+>
+> Creemos que lograremos que al menos el 70% de las consultas de información laboral se resuelvan en autoservicio al tercer mes, descargando al área de Recursos Humanos. Si los colaboradores generales que hoy dependen de consultas manuales a sus supervisores o a Recursos Humanos alcanzan autonomía y transparencia sobre su propia información laboral, con respuesta inmediata y sin intermediarios. Con un módulo de autogestión donde consulten sus datos personales, su remuneración asignada, sus beneficios vigentes y su saldo de vacaciones.
+>
+> Creemos que lograremos eliminar las discrepancias entre lo que registra el área y lo que percibe el colaborador sobre faltas, tardanzas y horas trabajadas. Si los analistas de Recursos Humanos y los colaboradores generales que hoy dependen de planillas de asistencia en papel u hojas de cálculo no compartidas alcanzan una única versión de la asistencia, visible y verificable por ambas partes en el momento en que ocurre. Con un registro digital de faltas, puntualidad y horas de trabajo consultable desde el módulo de autogestión y desde el panel del área.
+>
+> Creemos que lograremos reducir a cero las omisiones en la entrega de beneficios y las disputas por días de vacaciones, y bajar el tiempo que toma conocer el saldo disponible de 48 a 72 horas hasta menos de 5 minutos. Si los colaboradores generales y los analistas de Recursos Humanos que hoy calculan y verifican los días a mano alcanzan un saldo de vacaciones y un registro de beneficios actualizados y compartidos por ambas partes. Con un módulo que registre gratificaciones, canastas, vales de consumo y licencias, y que lleve el control automático de días acumulados y días usados por colaborador.
+>
+> Creemos que lograremos reducir el tiempo de aprobación de solicitudes de vacaciones, licencias y permisos de 48 a 72 horas hasta menos de 24 horas, con el 100% de las solicitudes trazables. Si los colaboradores generales y los jefes de área que hoy dependen de correos, mensajes y trámites presenciales que no dejan registro alcanzan visibilidad sobre el estado real de cada solicitud y la posibilidad de resolverla en el momento en que reciben la notificación. Con un workflow de solicitudes con estados definidos (Pendiente, Aprobado, Rechazado), ruteado al aprobador que corresponde según la jerarquía organizacional y con notificación automática.
+>
+> Creemos que lograremos eliminar las solicitudes de reenvío de boletas que hoy atiende el área una por una, y que el analista identifique los depósitos pendientes de un período sin consultar el sistema contable. Si los colaboradores generales que hoy reciben su boleta por correo o en papel y los analistas que responden esos pedidos de reenvío Alcanzan un repositorio consultable por período, donde cada colaborador accede a sus propias boletas y el área ve el estado del depósito de cada una. Con un módulo de pagos que almacene las boletas cargadas desde el sistema de planilla de la organización y registre su estado como pendiente, pagado u observado.
+>
+> Creemos que lograremos que el analista de Recursos Humanos responda las cinco preguntas operativas del protocolo de medición en menos de 2 minutos en total, y que las cinco se respondan sin abrir ningún archivo fuera de la plataforma. Si los analistas y las jefaturas de Recursos Humanos, que hoy tienen que cruzar varias hojas de cálculo y expedientes para responder una sola pregunta de la gerencia, alcanzan una lectura consolidada y actualizada del estado del personal, la asistencia, las solicitudes pendientes y los beneficios entregados. Con un dashboard de indicadores actualizado en tiempo real.
+
+#### 1.2.2.4. Lean UX Canvas
+
+El Lean UX Canvas recoge en un solo artefacto las ocho cajas del método y sirve de puente entre el problema de negocio declarado en 1.2.1 y las hipótesis que el equipo debe validar. Cada caja se completó a partir de las secciones anteriores de este capítulo, de modo que ninguna afirmación del canvas es nueva respecto de lo ya sustentado.
+
+| Caja del Canvas | Contenido |
+| ----- | ----- |
+| 1. Business Problem | Las organizaciones peruanas de 50 a 500 colaboradores gestionan la información de su personal en hojas de cálculo aisladas, documentos físicos y sistemas que no se comunican entre sí. Eso obliga al área de Recursos Humanos a reingresar los mismos datos en varios archivos, produce información inconsistente y deja al colaborador sin ninguna vía para consultar por sí mismo su remuneración, sus beneficios o su saldo de vacaciones. Las plataformas existentes se construyeron alrededor del motor de remuneraciones y del área administrativa, y no resuelven la creación de una fuente única de verdad accesible para ambas partes. |
+| 2. Business Outcomes | Reducción del 70% del tiempo que Recursos Humanos dedica a responder consultas de información laboral. Disminución de la tasa de error por información desactualizada o inconsistente en los registros de personal, asistencia y saldos de vacaciones, del rango de 15% a 20% hasta menos del 2%. Reducción del tiempo de aprobación de solicitudes de 48 a 72 horas hasta menos de 24 horas. Trazabilidad del 100% de las solicitudes, con estado y responsable identificables. Puesta en marcha de una organización nueva en no más de 5 días hábiles. |
+| 3. Users | Usuario principal: analista o coordinador de Recursos Humanos, de 25 a 55 años, en una organización de 50 a 500 colaboradores. Usuario secundario: colaborador de la organización, de 20 a 55 años, con alfabetización digital heterogénea, que accede de forma esporádica y sobre todo desde el teléfono. Subperfil dentro del Segmento 2: jefe o gerente de área, colaborador que además aprueba las solicitudes de quienes le reportan, con interacción de baja frecuencia y alta criticidad. Decisor de compra: gerencia general o administración, que no es usuario de la plataforma y evalúa por costo y riesgo, no por funcionalidades. |
+| 4. User Outcomes and Benefits | Para Recursos Humanos: eliminación de tareas mecánicas, reducción de la carga mental y evolución hacia un rol estratégico de retención de talento. Para los colaboradores: autonomía, reducción de la frustración por espera y mayor confianza en la empresa. |
+| 5. Solutions | Plataforma web: sistema centralizado para la gestión integral del capital humano. Módulo de autogestión: portal donde el colaborador visualiza sus vacaciones, boletas y beneficios de forma directa. Control de asistencia digital: registro de faltas, puntualidad y horas trabajadas, consultable por el colaborador y por Recursos Humanos. Workflow de solicitudes: sistema de estados Pendiente, Aprobado y Rechazado para vacaciones y permisos, con notificaciones. Dashboard: panel de control con indicadores operativos en tiempo real sobre personal activo por área, solicitudes pendientes, asistencia del período y beneficios entregados. Ficha única del colaborador y estructura organizacional: datos personales, puesto, área, tipo de contrato, estado y jerarquía entre jefe y colaborador. |
+| 6. Hypotheses | Las seis hipótesis del proyecto se enuncian con el template de Lean UX en la sección 1.2.2.3 y se resumen así: reducir a menos del 2% la tasa de error por información desactualizada mediante la ficha única del colaborador; resolver en autoservicio al menos el 70% de las consultas de información laboral mediante el módulo de autogestión; eliminar las discrepancias sobre faltas, tardanzas y horas trabajadas mediante un registro digital compartido; reducir a cero las omisiones en la entrega de beneficios y bajar a menos de 5 minutos el tiempo de consulta del saldo de vacaciones; reducir el tiempo de aprobación de solicitudes a menos de 24 horas con trazabilidad completa mediante el workflow ruteado por jerarquía; y permitir que el analista de Recursos Humanos responda las preguntas operativas de la gerencia en menos de 2 minutos sin abrir archivos fuera de la plataforma. |
+| 7. What is the most important thing we need to learn first? | Si los analistas de Recursos Humanos están dispuestos a abandonar sus hojas de cálculo actuales por un sistema digital. En segundo lugar, qué tan dispuesto está el colaborador con personal a cargo a asumir el rol de aprobador dentro de la plataforma, siendo un usuario de frecuencia baja cuya adopción condiciona el funcionamiento del workflow de solicitudes. En tercer lugar, si el colaborador general valora la autogestión lo suficiente como para usar la plataforma con regularidad. |
+| 8. What is the least amount of work we need to do to learn the next most important thing? | Desarrollar un prototipo de alta fidelidad del panel de Recursos Humanos y del módulo del colaborador para pruebas de usabilidad. Realizar una prueba de concepto con una organización en crecimiento del segmento inicial, configurando el módulo de vacaciones y solicitudes para un área piloto y midiendo el tiempo de aprobación antes y después. Aplicar encuestas de entrada y salida para medir el nivel de confianza y transparencia percibido antes y después de ver la solución. |
+
+## 1.3. Segmentos objetivo
+
+Se identificaron dos segmentos que conviven dentro de la misma organización cliente, con necesidades complementarias pero perfiles claramente diferenciados.
+
+**Contexto del mercado objetivo**
+
+Flowboard se dirige a organizaciones formales de entre 50 y 500 colaboradores ubicadas en Lima Metropolitana y Callao, pertenecientes sobre todo a los sectores de servicios profesionales, otros servicios y comercio, que no cuentan con un sistema de información de recursos humanos integrado.
+
+**Tamaño del mercado**
+
+Al 31 de diciembre de 2024, el Directorio Central de Empresas y Establecimientos registró 3,302,973 empresas en el Perú. De ese total, 21,468 unidades, el 0.6%, corresponden al segmento de mediana y gran empresa, definido por ventas anuales superiores a 1,700 UIT, y 99,231, el 3.0%, al de pequeña empresa, con ventas de entre 150 y 1,700 UIT (INEI, 2025). El mercado inmediato de Flowboard es el primero de esos dos grupos, donde el volumen de personal ya excede lo que una hoja de cálculo puede sostener, mientras que el segmento de pequeña empresa constituye el mercado de expansión.
+
+Lima Metropolitana y Callao concentran 1,536,199 empresas, el 46.5% del total nacional, lo que sustenta el foco geográfico inicial. Dentro de esa concentración, las actividades con mayor presencia son el comercio, con 43.1%, otros servicios con 18.9%, los servicios profesionales con 10.5% y la manufactura con 8.7% (INEI, 2025).
+
+**Nivel de digitalización de las organizaciones peruanas**
+
+El estudio Nuevos horizontes de la madurez digital en el Perú 2024, quinta edición de la medición que EY realiza en el país, ubica solo al 9% de las organizaciones peruanas en un estado avanzado de madurez digital. El 73% se encuentra en estado encaminado y el 17% en estado incipiente, con un índice nacional de 61.46 puntos sobre 100 (EY Perú, 2024). Dicho de otro modo, más de nueve de cada diez organizaciones todavía tienen procesos pendientes de digitalizar, y el área de Recursos Humanos suele estar entre las últimas de la fila porque no se percibe como un área crítica del negocio.
+
+El propio estudio reporta que el 62% de las empresas peruanas considera no contar con las competencias digitales necesarias, y que las dos barreras que más declaran para su transformación digital son la resistencia al cambio, con 48%, y la falta de personal capacitado, con 45% (EY Perú, 2024).
+
+**Segmento 1: Personal de Recursos Humanos (RRHH)**
+
+| Atributo                  | Descripción                                                                                                                            |
+|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Rango de edad             | 25 a 55 años                                                                                                                           |
+| Nivel educativo           | Educación superior universitaria o técnica en Administración, Psicología Organizacional, Relaciones Industriales o afines              |
+| Cargo                     | Analista, coordinador, asistente o jefe de Recursos Humanos                                                                            |
+| Tamaño de la organización | 50 a 500 colaboradores                                                                                                                 |
+| Alfabetización digital    | Medio-alta en herramientas ofimáticas, con dominio avanzado de hojas de cálculo; baja en software especializado de gestión de personas |
+| Dispositivos de uso       | Computadora de escritorio o laptop corporativa durante la jornada laboral                                                              |
+| Canales digitales         | Correo corporativo, mensajería instantánea, hojas de cálculo compartidas                                                               |
+
+Este segmento agrupa a los profesionales responsables de la gestión operativa del talento humano: el registro y la actualización de la información del personal, el control de asistencia, la administración de beneficios y la gestión de solicitudes. Su problema central es la alta carga administrativa que proviene del uso de herramientas fragmentadas, que aumenta el riesgo de error y consume el tiempo que podrían destinar a tareas estratégicas.
+
+Es también el segmento que habilita la adopción del otro: es quien registra al personal en la plataforma y quien genera, sin intervención adicional, las credenciales del resto de la organización. Por eso su adopción es condición necesaria para la del Segmento 2.
+
+El contexto de este segmento se caracteriza por una brecha de competencias que las propias organizaciones reconocen, y que explica por qué una herramienta dirigida a él tiene que priorizar una curva de aprendizaje corta por encima de la amplitud funcional. Como referencia del costo del problema, Feriandy (2025) reporta que el procesamiento manual de asistencia y tareas administrativas demanda entre 3 y 5 días por ciclo, con una tasa de error en el ingreso de datos de entre 15% y 20%.
+
+**Segmento 2: Colaboradores generales (empleados)**
+
+| **Atributo**           | **Descripción**                                                                              |
+|------------------------|----------------------------------------------------------------------------------------------|
+| Rango de edad          | 20 a 55 años                                                                                 |
+| Nivel educativo        | Heterogéneo: desde educación secundaria completa hasta educación superior                    |
+| Cargo                  | Personal operativo, administrativo, comercial y técnico sin funciones de gestión de personal |
+| Régimen laboral        | Trabajadores en planilla de organizaciones formales                                          |
+| Alfabetización digital | Heterogénea, de básica a media                                                               |
+| Dispositivos de uso    | Sobre todo teléfono móvil; computadora solo si el puesto la requiere                         |
+| Canales digitales      | WhatsApp, correo, intranet                                                                   |
+
+Este segmento agrupa a los trabajadores que necesitan acceder a su información laboral (datos personales, remuneración, beneficios, estado de solicitudes y registros de asistencia) y que hoy no tienen acceso directo, por lo que dependen de trámites burocráticos y consultas manuales a sus supervisores o al área de Recursos Humanos. Esto genera tiempos de espera prolongados, erosiona la confianza hacia la organización y empuja a los colaboradores a recurrir a canales informales para obtener información sobre vacaciones, licencias o pagos.
+
+Ortiz et al. (2024) advierten que cuando la alineación entre las metas estratégicas de la organización y las capacidades de los trabajadores es débil, la percepción del personal sobre los procesos de gestión se deteriora y su productividad general se reduce.
+
+**Subperfil: colaborador con personal a cargo**
+
+Dentro de este segmento se distingue un subperfil que no constituye un segmento aparte, porque comparte el mismo rol en la plataforma y la misma vista de autogestión, pero que sí tiene una necesidad adicional. Se trata del jefe o gerente de área, un colaborador que además aprueba las solicitudes de quienes le reportan según la jerarquía declarada en la estructura organizacional.
+
+Su interacción es de baja frecuencia y alta criticidad: entra pocas veces, pero de él depende que el flujo de solicitudes avance. Su condición de aprobador no se configura ni se otorga como permiso: se deriva automáticamente de tener subordinados asignados. Por eso el diseño prioriza que la aprobación se resuelva en el menor número de pasos posible desde la notificación recibida.
+
+**Relación entre segmentos**
+
+Los dos segmentos conviven en la misma organización y sus problemas se retroalimentan. La necesidad de acceso autónomo del colaborador se convierte en carga de consultas repetitivas para el área de Recursos Humanos, y la sobrecarga del área alarga los tiempos de respuesta que frustran al colaborador. Por eso la solución tiene que atender a ambos al mismo tiempo: resolver solo un lado no rompe el ciclo.
+
+Esta división en dos segmentos se corresponde con la arquitectura de la solución. El modelo de identidad define dos roles, personal de Recursos Humanos y colaborador, y la aplicación expone dos experiencias diferenciadas: administración y autogestión. En consecuencia, la Landing Page presenta dos call to action, uno por segmento, que dirigen a la vista correspondiente de la aplicación web.
+
+<div style="page-break-after: always;"></div>
