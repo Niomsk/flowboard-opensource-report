@@ -652,3 +652,119 @@ Fortalezas y Oportunidades**
 > Estrategia: Minimizar el impacto de recursos limitados y complejidad del sistema frente a competidores consolidados, mejorando la experiencia inicial del usuario y el soporte.
 >
 > Táctica:Implementar un proceso de onboarding simplificado, asistencia personalizada durante la implementación y mejoras en el soporte técnico para poder priorizar tiempos de respuesta y resolución de problemas complejos.
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+**Datos Demográficos Básicos**
+
+- ¿Cuál es tu nombre completo, edad y distrito de residencia?
+
+<!-- -->
+
+- ¿Cuál es tu estado civil y cómo está compuesta tu carga familiar (con quiénes vives, personas a cargo)?
+
+<!-- -->
+
+- ¿Cuál es tu nivel de estudios alcanzado y en qué especialidad o área te formaste?
+
+**Ocupación y Contexto Laboral**
+
+- ¿En qué empresa trabajas actualmente, a qué rubro se dedica y aproximadamente cuántas personas laboran en ella?
+
+<!-- -->
+
+- ¿Cuál es tu puesto de trabajo y cuánto tiempo llevas desempeñándolo?
+
+<!-- -->
+
+- ¿Cómo describirías la relación general entre los colaboradores y el área de Recursos Humanos?
+
+**Personalidad y Estilo de Trabajo**
+
+- ¿Qué parte de tu rutina diaria disfrutas más en tu trabajo y cuál evitarías o delegarías si pudieras?
+
+<!-- -->
+
+- Cuando surge un problema o imprevisto técnico/administrativo en tu día a día, ¿cómo sueles abordarlo?
+
+<!-- -->
+
+- En general, ¿prefieres resolver las tareas de forma autónoma o consultando y coordinando constantemente con otros?
+
+**Preguntas Principales**
+
+**Segmento 1: Personal de Recursos Humanos**
+
+- ¿Cómo está organizada la empresa a nivel de áreas? ¿El organigrama está documentado y actualizado en alguna plataforma?
+
+- ¿Con qué herramientas gestionan actualmente los legajos e información de los empleados (Excel, carpetas físicas, software especializado)? Si usan un sistema, ¿cuál es su nombre?
+
+- Cuando un colaborador solicita vacaciones o un permiso, ¿cuál es el flujo paso a paso para aprobarlo? ¿Cómo validan quién es el jefe directo autorizador?
+
+<!-- -->
+
+- ¿Cómo llevan el control de los días de vacaciones acumulados, gozados y pendientes de cada trabajador?
+
+- ¿Con qué frecuencia ocurren discrepancias con los empleados sobre sus días de vacaciones y cómo las resuelven?
+
+- ¿Cómo registran y validan diariamente la asistencia, tardanzas o sobretiempos?
+
+- ¿Cómo es el proceso actual para calcular la planilla y qué sistema utilizan para ello?
+
+<!-- -->
+
+- ¿Cómo registran y controlan la entrega de beneficios (canastas, vales, bonos, gratificaciones)? ¿Han ocurrido omisiones?
+
+- ¿Qué tipo de información suele pedirte el personal con más frecuencia de forma presencial o por mensajería?
+
+- ¿Qué tareas de tu rutina sientes que te generan mayor sobrecarga o son excesivamente repetitivas?
+
+**Segmento 2: Colaboradores Generales**
+
+- ¿Sabes exactamente cuántos días de vacaciones tienes disponibles en este momento? ¿Cómo lo averiguaste la última vez?
+
+- ¿Sabes qué beneficios te corresponden además de tu sueldo base?
+
+- ¿Qué información de tu remuneración o boleta de pago puedes revisar por ti mismo y cuál debes solicitar obligatoriamente a RRHH?
+
+- Si necesitaras solicitar vacaciones o un permiso médico ahora mismo, ¿cómo lo harías paso a paso?
+
+- ¿Alguna vez has enviado una solicitud y no supiste en qué estado quedó? ¿Qué hiciste al respecto?
+
+- ¿Tienes forma de revisar el historial de tus faltas, tardanzas o permisos registrados? ¿Has tenido alguna discrepancia con lo que RRHH tiene registrado?
+
+- ¿Alguna vez has tenido algún inconveniente o retraso con el área de Recursos Humanos respecto a tus pagos, vacaciones o documentos?
+
+- ¿Qué es lo que más te resulta molesto o lento del procedimiento actual para pedir cualquier trámite laboral?
+
+**Preguntas complementarias**
+
+- ¿Desde qué dispositivo trabajas la mayor parte del día (laptop, computadora de escritorio o celular)?
+
+- ¿Qué tareas del trabajo prefieres o necesitas hacer desde una computadora y cuáles te gustaría resolver directamente desde tu teléfono móvil?
+
+- ¿Con qué frecuencia necesitas realizar consultas laborales o marcar asistencia estando fuera de tu escritorio o en ruta?
+
+- ¿Qué sistema operativo utilizas en tu smartphone (Android / iOS) y qué navegador web usas en la computadora?
+
+- En una escala del 1 al 5, ¿qué tan cómodo te sientes aprendiendo a usar aplicaciones digitales nuevas? ¿Por qué esa nota?
+
+- ¿Qué programas o aplicaciones usas a diario para trabajar (Excel, WhatsApp, Slack, correo, etc.)?
+
+- ¿Por qué canal (correo electrónico, mensaje de WhatsApp, notificación push de app móvil) prefieres enterarte si te aprueban una solicitud o si se emite una boleta de pago?
+
+- Si pudieras marcar tu asistencia o pedir un permiso desde una app en tu celular, ¿en qué momentos o circunstancias te sería más útil?
+
+- ¿Qué aplicación o software (de uso personal o laboral) consideras un modelo de sencillez y facilidad de uso? ¿Por qué te gusta?
+
+- ¿Conoces o has usado alguna otra plataforma de gestión de RRHH? ¿Qué te pareció esa experiencia?
+
+- ¿Te sentirías cómodo consultando tus boletas de pago y datos personales desde una web o una app móvil de la empresa? ¿Existe algo que te genere dudas o desconfianza?
+
+- Describe cómo sería tu flujo ideal de trabajo si no tuvieras ninguna de las limitaciones administrativas actuales.
+
+- Si tuvieras que definir en una sola frase lo que más urge cambiar en la forma en que se gestiona la información laboral en tu empresa, ¿cuál sería?
+
+- ¿Hay algún punto relevante sobre tu experiencia en el trabajo que no hayamos tocado y te gustaría agregar?
